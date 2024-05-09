@@ -47,3 +47,19 @@
 // }
 // const result = myFunc(10,20)
 // console.log(result);
+
+
+const myYoutubeChannel = "pradipHazarika";
+let anotherChannel = myYoutubeChannel
+anotherChannel = "rahuldas";
+// console.log(anotherChannel);
+// console.log(myYoutubeChannel);
+
+
+const myObj = {
+    email :"pradip@gmaildotcom",
+    age:34
+}
+// myObj.email = "akash@gmauil.com"
+
+// console.log(myObj.email);
