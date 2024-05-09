@@ -65,6 +65,8 @@ let str3 = str1 + str2
 // console.log(gameCounter);
 
 // console.log(null >0);
+// console.log("2" >1);
+// console.log(1>"1");
 // console.log(null >=0);
 // console.log(null >0);
 // console.log("2" === 2); => strictly check values and types
