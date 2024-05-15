@@ -15,3 +15,15 @@ const obj4 = {5:"e", 6:"f"}
 // console.log(Object.keys(tinderUser));
 // console.log(Object.values(tinderUser));
 // console.log(tinderUser.hasOwnProperty('age'));
+
+
+// object destructuring
+
+const car = {
+    model:"34dfd",
+    price:245666,
+    color:"red"
+}
+
+const {model,price,color} = car;
+// console.log(color);
