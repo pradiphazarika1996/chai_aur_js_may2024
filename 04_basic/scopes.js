@@ -39,11 +39,27 @@ if (true) {
 function numOne(num1){
     return num1 + 1;
 }
-console.log(numOne(5));
+// console.log(numOne(5));
 
 
-const numTwo =(num1)=> {
-    return num1 + 2
-}
-const res = numTwo(5)
-console.log(res);
+// const numTwo =(num1)=> {
+//     return num1 + 2
+// }
+// const res = numTwo(5)
+// console.log(res);
+
+
+
+// const myArray = [1,2,3,4,5,6];
+// myArray.forEach((val)=>{
+// console.log(val * 2);
+
+// })
+
+// iifi immediately invoked function expression
+
+// problem of global scope pollution jo v declaration hai usko hatane k liye iifi ka use karte hai
+// ((x,y)=>{
+//     console.log(x+y);
+
+// })(4,5)
