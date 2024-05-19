@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <ul class="parent">
+        <li>Javascript</li>
+
+    </ul>
+    
+</body>
+<script>
+//   function addLang(langName){
+//    const li =  document.createElement('li');
+//    li.innerHTML= `${langName}`;
+//    document.querySelector('.parent').appendChild(li)
+
+//   }
+//   addLang('python')
+
+function addLanguage(langName){
+    const li = document.createElement('li');
+    const addText = document.createTextNode(langName);
+    li.appendChild(addText);
+    document.querySelector('.parent').appendChild(li)
+}
+addLanguage('react')
+addLanguage('python')
+addLanguage('css')
+
+const secondli = document.querySelector("li:nth-child(2)")
+const newli = document.createElement('li');
+newli.textContent="mojo"
+secondli.replaceWith(newli);
+
+//remove
+const removeli = document.querySelector("li:last-child");
+removeli.remove()
+
+// edit
+
+const firstli = document.querySelector("li:nth-child(1)");
+const newfirstli = document.createElement('li');
+newfirstli.textContent="php";
+firstli.replaceWith(newfirstli)
+</script>
+</html>
