@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <ul id="images">
+        <li><img src="https://cdn.britannica.com/63/211663-050-A674D74C/Jonny-Bairstow-batting-semifinal-match-England-Australia-2019.jpg" width="200px" id="cricket" alt="cricket" srcset=""></li>
+        <li><img src="https://media.istockphoto.com/id/1500238408/photo/program-code-development-icon-on-a-digital-lcd-display-with-reflection.jpg?s=1024x1024&w=is&k=20&c=9k0ISvEy4At1nzoYrDP-pwOyN5qyvOWf_MruUHANUKc=" width="200px" id="code" alt="cricket" srcset=""></li>
+        <li><img src="https://media.istockphoto.com/id/496267890/photo/lupins-at-lake-tekapo.jpg?s=1024x1024&w=is&k=20&c=gUPCsRKYg2ckGMJ7_cSKixqwS61jkWMOXpkDNoyILL8=" width="200px" id="flower" alt="flower" srcset=""></li>
+        <li><img src="https://cdn.pixabay.com/photo/2019/05/16/16/50/man-4207514_1280.jpg" width="200px" id="army" alt="army" srcset=""></li>
+    </ul>
+    
+</body>
+<script>
+  
+
+   document.querySelector('#images').addEventListener('click', (e)=>{
+    if (e.target.tagName === 'IMG') {
+        const removeit = e.target.parentNode;
+        removeit.remove()
+        
+    }
+
+   })
+</script>
+</html>
